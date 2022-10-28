@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import {ScheduleModule, AgendaService, DayService, WeekService, WorkWeekService, MonthService } from '@syncfusion/ej2-angular-schedule';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -23,11 +24,12 @@ import { MatButtonModule } from '@angular/material/button';
     HttpClientModule,
     ReactiveFormsModule,
     MatButtonModule,
+    ScheduleModule,
     AppRoutingModule,
     FormsModule,
   ],
   providers: [AuthGuard,
-    AuthService],
+    AuthService, AgendaService, DayService, WeekService, WorkWeekService, MonthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
