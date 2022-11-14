@@ -1,0 +1,42 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+#buttonstuff {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  margin-right: 100px;
+}
+
+.anybutton {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  position: relative;
+  background-color: blue;
+  color: red;
+  padding: 0.5em 1em;
+  transition: all .4s ease;
+}

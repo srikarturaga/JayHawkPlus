@@ -1,0 +1,24 @@
+.login {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://raw.githubusercontent.com/srikarturaga/HAWK-PLUS/main/hawkpluslogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+body{
+    background-color: yellow;
+}
